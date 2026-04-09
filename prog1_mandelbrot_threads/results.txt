@@ -1,0 +1,441 @@
+[mandelbrot serial]:		[511.060] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 0 took 547.720 ms
+Thread 0 took 530.785 ms
+Thread 0 took 504.370 ms
+Thread 0 took 568.756 ms
+Thread 0 took 540.978 ms
+[mandelbrot thread]:		[504.375] ms
+Wrote image file mandelbrot-thread.ppm
+				(1.01x speedup from 1 threads)
+[mandelbrot serial]:		[518.607] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 1 took 274.811 ms
+Thread 0 took 275.026 ms
+Thread 1 took 267.713 ms
+Thread 0 took 273.794 ms
+Thread 0 took 265.777 ms
+Thread 1 took 275.870 ms
+Thread 1 took 268.094 ms
+Thread 0 took 268.326 ms
+Thread 1 took 264.354 ms
+Thread 0 took 264.535 ms
+[mandelbrot thread]:		[264.598] ms
+Wrote image file mandelbrot-thread.ppm
+				(1.96x speedup from 2 threads)
+[mandelbrot serial]:		[517.362] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 0 took 181.167 ms
+Thread 1 took 185.475 ms
+Thread 2 took 185.455 ms
+Thread 1 took 177.348 ms
+Thread 2 took 177.328 ms
+Thread 0 took 177.671 ms
+Thread 0 took 182.010 ms
+Thread 1 took 187.980 ms
+Thread 2 took 188.056 ms
+Thread 2 took 189.892 ms
+Thread 1 took 189.956 ms
+Thread 0 took 190.255 ms
+Thread 2 took 186.310 ms
+Thread 1 took 187.124 ms
+Thread 0 took 187.419 ms
+[mandelbrot thread]:		[177.799] ms
+Wrote image file mandelbrot-thread.ppm
+				(2.91x speedup from 3 threads)
+[mandelbrot serial]:		[511.723] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 0 took 140.232 ms
+Thread 3 took 146.595 ms
+Thread 1 took 146.613 ms
+Thread 2 took 146.677 ms
+Thread 0 took 135.361 ms
+Thread 1 took 145.116 ms
+Thread 3 took 145.097 ms
+Thread 2 took 145.132 ms
+Thread 1 took 133.294 ms
+Thread 3 took 144.945 ms
+Thread 2 took 144.973 ms
+Thread 0 took 145.141 ms
+Thread 3 took 132.631 ms
+Thread 1 took 136.606 ms
+Thread 2 took 136.722 ms
+Thread 0 took 136.815 ms
+Thread 2 took 130.895 ms
+Thread 3 took 142.410 ms
+Thread 1 took 142.424 ms
+Thread 0 took 142.607 ms
+[mandelbrot thread]:		[136.943] ms
+Wrote image file mandelbrot-thread.ppm
+				(3.74x speedup from 4 threads)
+[mandelbrot serial]:		[520.098] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 2 took 107.063 ms
+Thread 1 took 118.413 ms
+Thread 3 took 118.399 ms
+Thread 4 took 118.387 ms
+Thread 0 took 118.783 ms
+Thread 1 took 111.212 ms
+Thread 2 took 111.216 ms
+Thread 4 took 114.403 ms
+Thread 3 took 114.433 ms
+Thread 0 took 114.704 ms
+Thread 4 took 105.706 ms
+Thread 1 took 115.267 ms
+Thread 3 took 115.274 ms
+Thread 2 took 115.280 ms
+Thread 0 took 115.596 ms
+Thread 2 took 107.770 ms
+Thread 4 took 107.760 ms
+Thread 0 took 108.079 ms
+Thread 1 took 111.890 ms
+Thread 3 took 111.986 ms
+Thread 0 took 104.670 ms
+Thread 1 took 115.547 ms
+Thread 2 took 115.581 ms
+Thread 4 took 115.577 ms
+Thread 3 took 115.594 ms
+[mandelbrot thread]:		[112.181] ms
+Wrote image file mandelbrot-thread.ppm
+				(4.64x speedup from 5 threads)
+[mandelbrot serial]:		[522.635] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 1 took 87.114 ms
+Thread 3 took 87.141 ms
+Thread 0 took 87.363 ms
+Thread 4 took 89.117 ms
+Thread 2 took 124.172 ms
+Thread 5 took 120.881 ms
+Thread 2 took 88.813 ms
+Thread 0 took 89.133 ms
+Thread 1 took 106.143 ms
+Thread 3 took 116.232 ms
+Thread 4 took 109.111 ms
+Thread 5 took 118.960 ms
+Thread 0 took 80.510 ms
+Thread 1 took 96.324 ms
+Thread 2 took 96.314 ms
+Thread 3 took 96.366 ms
+Thread 5 took 99.504 ms
+Thread 4 took 122.226 ms
+Thread 1 took 89.724 ms
+Thread 4 took 89.681 ms
+Thread 2 took 89.707 ms
+Thread 0 took 89.959 ms
+Thread 3 took 92.963 ms
+Thread 5 took 92.972 ms
+Thread 1 took 86.019 ms
+Thread 0 took 86.308 ms
+Thread 3 took 92.096 ms
+Thread 5 took 87.502 ms
+Thread 2 took 112.936 ms
+Thread 4 took 106.169 ms
+[mandelbrot thread]:		[93.234] ms
+Wrote image file mandelbrot-thread.ppm
+				(5.61x speedup from 6 threads)
+[mandelbrot serial]:		[498.116] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 2 took 82.323 ms
+Thread 4 took 82.332 ms
+Thread 6 took 82.317 ms
+Thread 1 took 85.902 ms
+Thread 3 took 85.891 ms
+Thread 0 took 85.899 ms
+Thread 5 took 86.225 ms
+Thread 1 took 86.005 ms
+Thread 2 took 86.013 ms
+Thread 3 took 86.013 ms
+Thread 5 took 86.304 ms
+Thread 4 took 87.255 ms
+Thread 0 took 87.231 ms
+Thread 6 took 87.341 ms
+Thread 1 took 82.868 ms
+Thread 3 took 82.883 ms
+Thread 5 took 83.185 ms
+Thread 2 took 84.000 ms
+Thread 6 took 83.997 ms
+Thread 0 took 84.003 ms
+Thread 4 took 84.017 ms
+Thread 1 took 82.481 ms
+Thread 2 took 82.470 ms
+Thread 3 took 82.481 ms
+Thread 4 took 82.486 ms
+Thread 6 took 82.459 ms
+Thread 0 took 82.502 ms
+Thread 5 took 82.802 ms
+Thread 1 took 81.880 ms
+Thread 3 took 81.868 ms
+Thread 4 took 81.869 ms
+Thread 0 took 81.877 ms
+Thread 2 took 82.989 ms
+Thread 6 took 83.005 ms
+Thread 5 took 83.295 ms
+[mandelbrot thread]:		[82.948] ms
+Wrote image file mandelbrot-thread.ppm
+				(6.01x speedup from 7 threads)
+[mandelbrot serial]:		[535.683] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 1 took 74.149 ms
+Thread 3 took 74.197 ms
+Thread 5 took 74.174 ms
+Thread 7 took 74.122 ms
+Thread 2 took 74.339 ms
+Thread 4 took 74.279 ms
+Thread 6 took 74.348 ms
+Thread 0 took 74.554 ms
+Thread 1 took 73.714 ms
+Thread 4 took 73.697 ms
+Thread 2 took 73.775 ms
+Thread 6 took 73.762 ms
+Thread 3 took 75.189 ms
+Thread 7 took 75.119 ms
+Thread 5 took 75.179 ms
+Thread 0 took 75.415 ms
+Thread 1 took 73.448 ms
+Thread 2 took 73.491 ms
+Thread 4 took 73.447 ms
+Thread 0 took 77.474 ms
+Thread 3 took 83.942 ms
+Thread 6 took 76.895 ms
+Thread 7 took 76.807 ms
+Thread 5 took 74.276 ms
+Thread 1 took 74.000 ms
+Thread 4 took 73.978 ms
+Thread 3 took 74.047 ms
+Thread 7 took 73.969 ms
+Thread 2 took 77.076 ms
+Thread 5 took 77.097 ms
+Thread 6 took 77.078 ms
+Thread 0 took 77.338 ms
+Thread 1 took 72.697 ms
+Thread 2 took 72.771 ms
+Thread 3 took 72.756 ms
+Thread 5 took 72.762 ms
+Thread 4 took 72.805 ms
+Thread 7 took 72.800 ms
+Thread 6 took 72.851 ms
+Thread 0 took 73.052 ms
+[mandelbrot thread]:		[73.305] ms
+Wrote image file mandelbrot-thread.ppm
+				(7.31x speedup from 8 threads)
+--- VIEW 2 ---
+[mandelbrot serial]:		[310.900] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 0 took 319.713 ms
+Thread 0 took 314.015 ms
+Thread 0 took 315.861 ms
+Thread 0 took 321.814 ms
+Thread 0 took 317.749 ms
+[mandelbrot thread]:		[314.019] ms
+Wrote image file mandelbrot-thread.ppm
+				(0.99x speedup from 1 threads)
+[mandelbrot serial]:		[314.734] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 0 took 160.754 ms
+Thread 1 took 165.248 ms
+Thread 1 took 157.065 ms
+Thread 0 took 162.808 ms
+Thread 0 took 156.532 ms
+Thread 1 took 166.622 ms
+Thread 1 took 165.666 ms
+Thread 0 took 165.898 ms
+Thread 1 took 166.102 ms
+Thread 0 took 166.362 ms
+[mandelbrot thread]:		[162.892] ms
+Wrote image file mandelbrot-thread.ppm
+				(1.93x speedup from 2 threads)
+[mandelbrot serial]:		[304.826] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 2 took 114.187 ms
+Thread 1 took 114.315 ms
+Thread 0 took 114.475 ms
+Thread 2 took 114.145 ms
+Thread 1 took 114.305 ms
+Thread 0 took 114.426 ms
+Thread 0 took 106.175 ms
+Thread 2 took 106.151 ms
+Thread 1 took 106.270 ms
+Thread 0 took 102.708 ms
+Thread 2 took 108.674 ms
+Thread 1 took 108.811 ms
+Thread 0 took 102.979 ms
+Thread 2 took 107.370 ms
+Thread 1 took 107.494 ms
+[mandelbrot thread]:		[106.391] ms
+Wrote image file mandelbrot-thread.ppm
+				(2.87x speedup from 3 threads)
+[mandelbrot serial]:		[311.586] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 3 took 86.837 ms
+Thread 2 took 86.953 ms
+Thread 1 took 87.045 ms
+Thread 0 took 87.204 ms
+Thread 2 took 81.325 ms
+Thread 0 took 81.547 ms
+Thread 3 took 84.214 ms
+Thread 1 took 84.379 ms
+Thread 2 took 80.615 ms
+Thread 0 took 80.840 ms
+Thread 3 took 85.563 ms
+Thread 1 took 85.726 ms
+Thread 3 took 80.839 ms
+Thread 2 took 85.586 ms
+Thread 1 took 85.638 ms
+Thread 0 took 85.812 ms
+Thread 2 took 79.288 ms
+Thread 0 took 79.543 ms
+Thread 3 took 81.232 ms
+Thread 1 took 81.448 ms
+[mandelbrot thread]:		[81.686] ms
+Wrote image file mandelbrot-thread.ppm
+				(3.81x speedup from 4 threads)
+[mandelbrot serial]:		[302.762] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 3 took 67.054 ms
+Thread 1 took 67.218 ms
+Thread 4 took 67.715 ms
+Thread 2 took 68.004 ms
+Thread 0 took 68.158 ms
+Thread 4 took 65.521 ms
+Thread 3 took 65.566 ms
+Thread 1 took 65.748 ms
+Thread 2 took 65.785 ms
+Thread 0 took 65.899 ms
+Thread 3 took 65.399 ms
+Thread 1 took 65.550 ms
+Thread 4 took 67.554 ms
+Thread 2 took 67.814 ms
+Thread 0 took 68.023 ms
+Thread 0 took 67.644 ms
+Thread 4 took 70.110 ms
+Thread 3 took 70.200 ms
+Thread 2 took 70.319 ms
+Thread 1 took 70.386 ms
+Thread 4 took 68.316 ms
+Thread 2 took 68.513 ms
+Thread 1 took 68.594 ms
+Thread 0 took 68.732 ms
+Thread 3 took 70.236 ms
+[mandelbrot thread]:		[66.035] ms
+Wrote image file mandelbrot-thread.ppm
+				(4.58x speedup from 5 threads)
+[mandelbrot serial]:		[303.330] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 4 took 52.509 ms
+Thread 3 took 55.944 ms
+Thread 1 took 56.119 ms
+Thread 0 took 56.202 ms
+Thread 2 took 81.645 ms
+Thread 5 took 74.031 ms
+Thread 0 took 51.710 ms
+Thread 3 took 57.842 ms
+Thread 2 took 57.935 ms
+Thread 1 took 58.027 ms
+Thread 4 took 66.458 ms
+Thread 5 took 57.882 ms
+Thread 4 took 53.367 ms
+Thread 3 took 53.409 ms
+Thread 5 took 56.187 ms
+Thread 2 took 56.384 ms
+Thread 1 took 56.445 ms
+Thread 0 took 56.538 ms
+Thread 3 took 55.910 ms
+Thread 1 took 56.088 ms
+Thread 5 took 56.927 ms
+Thread 4 took 56.987 ms
+Thread 2 took 57.131 ms
+Thread 0 took 57.279 ms
+Thread 5 took 55.096 ms
+Thread 3 took 55.214 ms
+Thread 4 took 57.704 ms
+Thread 2 took 57.862 ms
+Thread 1 took 57.935 ms
+Thread 0 took 57.998 ms
+[mandelbrot thread]:		[56.788] ms
+Wrote image file mandelbrot-thread.ppm
+				(5.34x speedup from 6 threads)
+[mandelbrot serial]:		[294.167] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 0 took 48.782 ms
+Thread 3 took 50.009 ms
+Thread 4 took 50.008 ms
+Thread 2 took 51.149 ms
+Thread 1 took 51.214 ms
+Thread 6 took 50.985 ms
+Thread 5 took 51.090 ms
+Thread 3 took 48.345 ms
+Thread 1 took 48.584 ms
+Thread 0 took 48.580 ms
+Thread 4 took 61.245 ms
+Thread 2 took 71.567 ms
+Thread 6 took 60.926 ms
+Thread 5 took 59.890 ms
+Thread 6 took 48.305 ms
+Thread 2 took 48.786 ms
+Thread 1 took 48.830 ms
+Thread 5 took 49.688 ms
+Thread 4 took 49.784 ms
+Thread 3 took 49.868 ms
+Thread 0 took 50.140 ms
+Thread 6 took 47.935 ms
+Thread 5 took 48.012 ms
+Thread 4 took 48.111 ms
+Thread 3 took 48.202 ms
+Thread 2 took 48.394 ms
+Thread 1 took 48.477 ms
+Thread 0 took 48.479 ms
+Thread 6 took 48.197 ms
+Thread 5 took 48.294 ms
+Thread 4 took 48.587 ms
+Thread 2 took 48.664 ms
+Thread 3 took 48.699 ms
+Thread 1 took 48.943 ms
+Thread 0 took 48.972 ms
+[mandelbrot thread]:		[48.673] ms
+Wrote image file mandelbrot-thread.ppm
+				(6.04x speedup from 7 threads)
+[mandelbrot serial]:		[301.349] ms
+Wrote image file mandelbrot-serial.ppm
+Thread 6 took 42.347 ms
+Thread 4 took 42.508 ms
+Thread 1 took 42.665 ms
+Thread 2 took 42.625 ms
+Thread 7 took 45.011 ms
+Thread 5 took 45.158 ms
+Thread 3 took 45.284 ms
+Thread 0 took 45.426 ms
+Thread 7 took 42.210 ms
+Thread 5 took 42.278 ms
+Thread 3 took 42.449 ms
+Thread 1 took 42.529 ms
+Thread 6 took 42.556 ms
+Thread 4 took 42.739 ms
+Thread 2 took 42.828 ms
+Thread 0 took 42.970 ms
+Thread 6 took 42.122 ms
+Thread 4 took 42.278 ms
+Thread 2 took 42.393 ms
+Thread 7 took 42.272 ms
+Thread 1 took 42.438 ms
+Thread 5 took 42.350 ms
+Thread 3 took 42.510 ms
+Thread 0 took 42.611 ms
+Thread 1 took 42.165 ms
+Thread 2 took 42.159 ms
+Thread 0 took 42.246 ms
+Thread 4 took 43.721 ms
+Thread 3 took 45.023 ms
+Thread 5 took 43.991 ms
+Thread 7 took 43.988 ms
+Thread 6 took 54.667 ms
+Thread 4 took 39.694 ms
+Thread 1 took 42.082 ms
+Thread 0 took 42.162 ms
+Thread 7 took 40.155 ms
+Thread 3 took 64.096 ms
+Thread 5 took 54.783 ms
+Thread 2 took 71.133 ms
+Thread 6 took 67.794 ms
+[mandelbrot thread]:		[42.864] ms
+Wrote image file mandelbrot-thread.ppm
+				(7.03x speedup from 8 threads)
