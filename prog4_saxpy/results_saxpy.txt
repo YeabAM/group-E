@@ -1,0 +1,12 @@
+Thread(s) per core:  1
+Core(s) per socket:  64
+Socket(s):           2
+Model name:          AMD EPYC 7H12 64-Core Processor
+/bin/mkdir -p objs/
+g++ -m64 -I../common -Iobjs/ -O2 -Wall  -o saxpy objs/main.o objs/saxpySerial.o objs/saxpy_ispc.o objs/tasksys.o -lm -lpthread
+[saxpy serial]:		[11.747] ms	[25.371] GB/s	[3.405] GFLOPS
+[saxpy ispc]:		[11.056] ms	[26.956] GB/s	[3.618] GFLOPS
+[saxpy task ispc]:	[8.270] ms	[36.038] GB/s	[4.837] GFLOPS
+				(1.34x speedup from use of tasks)
+				(1.06x speedup from ISPC)
+				(1.42x speedup from task ISPC)
