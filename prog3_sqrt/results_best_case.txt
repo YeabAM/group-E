@@ -1,0 +1,11 @@
+Thread(s) per core:  1
+Core(s) per socket:  20
+Socket(s):           2
+Model name:          Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz
+/bin/mkdir -p objs/
+g++ -m64 -march=native -I../common -Iobjs/ -O3 -Wall -o sqrt objs/main.o objs/sqrtSerial.o objs/sqrt_ispc.o objs/ppm.o objs/tasksys.o -lm -lpthread
+[sqrt serial]:		[2453.638] ms
+[sqrt ispc]:		[439.743] ms
+[sqrt task ispc]:	[60.427] ms
+				(5.58x speedup from ISPC)
+				(40.61x speedup from task ISPC)
