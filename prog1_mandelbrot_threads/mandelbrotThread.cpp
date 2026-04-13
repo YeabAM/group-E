@@ -22,18 +22,41 @@ extern void mandelbrotSerial(float x0, float y0, float x1, float y1, int width,
 // workerThreadStart --
 //
 // Thread entrypoint.
+// BLOCK ASSIGNMENT (baseline)
+// void workerThreadStart(WorkerArgs *const args) {
+//     double startTime = CycleTimer::currentSeconds();
+
+//     int rowsPerThread = args->height / args->numThreads;
+//     int startRow = args->threadId * rowsPerThread;
+//     int numRows = (args->threadId == args->numThreads - 1)
+//                   ? args->height - startRow
+//                   : rowsPerThread;
+
+//     mandelbrotSerial(args->x0, args->y0, args->x1, args->y1,
+//                      args->width, args->height,
+//                      startRow, numRows,
+//                      args->maxIterations, args->output);
+
+//     double endTime = CycleTimer::currentSeconds();
+//     printf("Thread %d took %.3f ms\n", args->threadId, (endTime - startTime) * 1000);
+// }
+
+// INTERLEAVED ASSIGNMENT (final)
 void workerThreadStart(WorkerArgs *const args) {
+    double startTime = CycleTimer::currentSeconds();
 
-  // TODO FOR STUDENTS: Implement the body of the worker
-  // thread here. Each thread should make a call to mandelbrotSerial()
-  // to compute a part of the output image.  For example, in a
-  // program that uses two threads, thread 0 could compute the top
-  // half of the image and thread 1 could compute the bottom half.
+    for (unsigned int row = args->threadId; row < args->height; row += args->numThreads) {
+        mandelbrotSerial(args->x0, args->y0, args->x1, args->y1,
+                         args->width, args->height,
+                         row, 1,
+                         args->maxIterations, args->output);
+    }
 
-  printf("Hello world from thread %d\n", args->threadId);
+    double endTime = CycleTimer::currentSeconds();
+    printf("Thread %d took %.3f ms\n", args->threadId, (endTime - startTime) * 1000);
 }
 
-//
+
 // MandelbrotThread --
 //
 // Multi-threaded implementation of mandelbrot set image generation.
